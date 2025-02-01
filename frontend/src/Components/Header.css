@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Agu+Display&family=Cedarville+Cursive&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Dancing+Script:wght@400..700&family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Playwrite+AU+QLD+Guides&family=Playwrite+GB+J+Guides:ital@0;1&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&display=swap');
+
+
+.header{
+    /* background-color: aqua; */
+    margin: 0;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header>h1{
+    margin: 0;
+    padding: 0;
+    font-family: "Agu Display", serif;
+    font-size: 3rem;
+}
+.cart_button{
+    padding: 10px 20px;
+    background-color: orange;
+    color: white;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 20px;
+}
+.cart_button:hover{
+    background-color: orangered;
+}

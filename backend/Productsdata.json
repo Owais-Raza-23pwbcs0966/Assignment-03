@@ -1,0 +1,80 @@
+[
+{
+    "name": "Mechanical Gaming Keyboard",
+    "price": 89.99,
+    "description": "High-performance mechanical keyboard with RGB lighting and custom switches",
+    "image": "./keyboard.jpeg",
+    "specifications": [
+        "Mechanical Cherry MX Red switches",
+        "Full RGB backlighting",
+        "Aluminum frame",
+        "Detachable USB-C cable",
+        "N-key rollover",
+        "Programmable macro keys"
+    ]
+},
+{
+    "name": "Ergonomic mouse",
+    "price": 1500,
+    "description": "Comfortable mouse for extensive work hours",
+    "image": "./mouse.jpeg",
+    "specifications": [
+        "Confortable",
+        "Full RGB backlighting",
+        "Aluminum Build",
+        "Detachable USB-C cable",
+        "Bluetooth connectivity"
+    ]
+},
+{
+    "name": "Gaming 4K Monitor",
+    "price": 47000,
+    "description": "Ultra High 144HZ display for seamless gaming experience",
+    "image": "./monitor.jpeg",
+    "specifications": [
+        "Anti Flicker Display",
+        "Full RGB backlighting",
+        "Aluminum frame",
+        "Advanced Airflow design",
+        "90 watt power delivery"
+    ]
+},
+{
+    "name": "Portable wireless speakers",
+    "price": 7000,
+    "description": "Easily portable and highly durable design",
+    "image": "./speaker.jpeg",
+    "specifications": [
+        "Powerful and clear sound",
+        "Firm focus on sustainability and materials",
+        "Aluminum frame",
+        "Detachable USB-C cable",
+        "16-hour battery life for longer listening",
+        "Hands-free calling with built-in mic"
+    ]
+},
+{
+    "name": "Webcam",
+    "price": 14000,
+    "description": "Take your streaming to the fullest",
+    "image": "./webcam.jpeg",
+    "specifications": [
+        "The Ultimate Webcam for Video Meetings",
+        "Adjustable Field of View",
+        "Look Professional in Any Light",
+        "Sound Professional in Any Environment"
+    ]
+},
+{
+    "name": "Dual Monitor Arm",
+    "price": 15000,
+    "description": "Allows effortless positioning and alignment of the monitor",
+    "image": "./arm.jpeg",
+    "specifications": [
+        "Pipe-shaped Double monitor arm with a counterbalance spring",
+        "Designed for screen sizes ranging from 17″ to 32″",
+        "Aluminum frame",
+        "Weight Capacity per screen: 0 to 8kg"
+    ]
+}
+]
