@@ -102,6 +102,10 @@ const validateCartInput = (req, res, next) => {
     next();
 };
 
+app.get('/',async(req,res)=>{
+    res.json('sever is running')
+})
+
 // PRODUCT ROUTES
 // GET all products
 app.get('/api/products', async (req, res) => {
