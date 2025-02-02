@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { CartProvider } from './Context/CartContext';
-import ProductCard from "./components/ProductCard";
-import Header from "./components/Header";
+import ProductCard from "./Components/ProductCard";
+import Header from "./Components/Header";
 import { Routes, Route } from "react-router-dom";
 import Cart from "./Components/Cart";
 import axios from 'axios';
@@ -15,7 +15,7 @@ const App = () => {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/api/products');
+        const response = await axios.get('https://assignment-03-backend.vercel.app/api/products');
         setProducts(response.data);
       } catch (error) {
         console.error('Error fetching products:', error);

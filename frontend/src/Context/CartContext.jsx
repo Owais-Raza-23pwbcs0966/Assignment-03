@@ -10,7 +10,7 @@ export const CartProvider = ({ children }) => {
   const addToCart = async (product) => {
     try {
       // Backend API call to add item
-      await axios.post('http://localhost:5000/api/cart', {
+      await axios.post('https://assignment-03-backend.vercel.app/api/cart', {
         userId: "user123", // You'll need to implement actual user authentication
         productId: product._id,
         quantity: 1
@@ -26,7 +26,7 @@ export const CartProvider = ({ children }) => {
   const removeFromCart = async (productId) => {
     try {
       // Backend API call to remove item
-      await axios.delete(`http://localhost:5000/api/cart/${productId}`, {
+      await axios.delete(`https://assignment-03-backend.vercel.app/api/cart/${productId}`, {
         data: { userId: "user123" } // Pass userId in the request body
       });
   
@@ -40,7 +40,7 @@ export const CartProvider = ({ children }) => {
   const updateCartItem = async (productId, quantity) => {
     try {
       // Backend API call to update item
-      await axios.put(`http://localhost:5000/api/cart/${productId}`, { 
+      await axios.put(`https://assignment-03-backend.vercel.app/api/cart/${productId}`, { 
         userId: "user123", // Pass userId in the request body
         quantity 
       });
